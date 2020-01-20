@@ -1,49 +1,58 @@
-*.a
-*.exe
-*.la
-*.lo
-*.o
-*.sw*
+## my project
+
+## generic
+._*
+
+## sqlite
+*.sqlite
+
+## c++
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles
+*.app
+release
+mingw_release
+build
+mingw_build
+mingw_build_debug
+*.[oa]
+
+#node.js
+node_modules
+
+#build files
+*.out
+
+#visual studio
+.vscode
+
+# xcode
+xcode
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+
+# codeblocks
+gmon.out
+
+### - mac - ###
+.DS_Store
+
+
+# repositories
+.hg
+.svn
+CVS
+
+# automatic backup files
+*~.nib
+*.swp
 *~
-.deps
-.dirstamp
-.libs
-/Makefile
-Makefile.in
-aclocal.m4
-autom4te.cache/
-config.guess
-config.log
-config.status
-config.sub
-configure
-config.h.in
-config.h
-compile
-depcomp
-doc/Doxyfile
-doc/doxygen-build.stamp
-doc/html
-doc/latex
-examples/opusfile_example
-examples/seeking_example
-install-sh
-libopusfile-*.tar.*
-libtool
-ltmain.sh
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
-missing
-opusfile.pc
-opusfile-uninstalled.pc
-opusurl.pc
-opusurl-uninstalled.pc
-package_version
-stamp-h1
-test-driver
-unix/objs
-unix/opusfile_example
-unix/seeking_example
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
